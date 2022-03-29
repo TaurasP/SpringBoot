@@ -7,7 +7,8 @@ import java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 
-@RestController
+// http://localhost:8080/swagger-ui/
+/*@RestController
 @RequestMapping("/api")
 public class AddressBookResource {
 
@@ -25,8 +26,8 @@ public class AddressBookResource {
 
     @PostMapping("/")
     public Contact addContacts(@RequestBody Contact contact) {
-        contacts.put(contact.getId(), contact);
+        contacts.put(String.valueOf(contact.getId()), contact);
         return contact;
     }
 
-}
+}*/
