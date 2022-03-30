@@ -1,6 +1,6 @@
 package lt.viko.eif.tpetrauskas.springboot;
 
-public class Greeting {
+/*public class Greeting {
 
     private final long id;
     private final String content;
@@ -17,4 +17,4 @@ public class Greeting {
     public String getContent() {
         return content;
     }
-}
+}*/

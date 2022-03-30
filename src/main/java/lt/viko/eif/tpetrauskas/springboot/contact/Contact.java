@@ -8,8 +8,6 @@ public class Contact {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-
-    @Column
     private long id;
     @Column
     private String name;

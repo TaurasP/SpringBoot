@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
 // API URL is closed - not reachable
-@SpringBootApplication
+/*@SpringBootApplication
 public class ConsumingRestApplication {
 
     private static final Logger log = LoggerFactory.getLogger(ConsumingRestApplication.class);
@@ -28,4 +28,4 @@ public class ConsumingRestApplication {
 
     log.info(quote.toString());
     }
-}
+}*/

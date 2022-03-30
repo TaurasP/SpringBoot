@@ -2,7 +2,7 @@ package lt.viko.eif.tpetrauskas.springboot;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
-@JsonIgnoreProperties(ignoreUnknown = true)
+/*@JsonIgnoreProperties(ignoreUnknown = true)
 public class Quote {
 
     private String type;
@@ -34,4 +34,4 @@ public class Quote {
                 ", value=" + value +
                 '}';
     }
-}
+}*/
